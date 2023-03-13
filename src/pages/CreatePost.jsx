@@ -71,8 +71,6 @@ const CreatePost = () => {
     setForm({ ...form, prompt: randomPrompt });
   };
 
-  console.log(form);
-
   return (
     <section className="max-w-7xl mx-auto">
       <div>
